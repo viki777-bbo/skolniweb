@@ -78,3 +78,35 @@ nav ul {
 .banner-text p {
 	font-size: 24px;
 }
+.heading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.feature {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #666;
+    font-size: 14px;
+}
+.features {
+    display: flex; /* Aktivace flexboxu */
+    flex-wrap: wrap; /* Zajištění zalomení prvků na další řádek při nedostatku místa */
+    justify-content: center; /* Zarovná prvky do středu */
+}
+
+.feature {
+    width: 30%; /* Každý prvek zabere 30 % šířky */
+    border: 1px solid #ccc; /* Ohraničení pro lepší viditelnost */
+    padding: 15px; /* Vnitřní mezery */
+    box-sizing: border-box; /* Zabrání zvětšování prvku kvůli paddingu */
+}
