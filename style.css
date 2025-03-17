@@ -122,3 +122,67 @@ nav ul li a:hover {
 .product.reverse {
     flex-direction: row-reverse;
 }
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+}
+
+.contact-box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-box a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: transparent; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
+.social-icons a svg {
+    width: 24px;
+    height: 24px;
+    fill: white; 
+    transition: fill 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.social-icons a:hover svg {
+    fill: #FFD700; 
+}
+
+.map-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 10px 0;
+}
